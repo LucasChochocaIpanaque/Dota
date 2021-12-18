@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Dota*/
+
+body {
+    margin: 0;
+    height: 116vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 43%, rgba(158, 155, 155, 1) 100%);
+    font-family: 'monospace';
+}
+
+
+/*Mapa*/
+
+nav {
+    text-align: left;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    font-weight: 300;
+    margin-right: 48px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+.botonesIN {
+    padding: 1.375rem 1.75rem;
+    box-shadow: rgb(255, 255, 255) 6px 8px 11px -2px;
+    font-size: 140%;
+}
+
+
+/*Heroes*/
+
+.Bloque1 {
+    background: rgba(35, 46, 43, 0.323);
+    background: radial-gradient(circle, rgba(14, 26, 23, 0.467) 22%, rgba(31, 31, 33, 0.789) 92%);
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px -10px;
+    margin-top: 2%;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.card {
+    background-color: #00000061;
+}
+
+.textoPRJ {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+}
+
+.Tfoter {
+    text-align: center;
+    color: rgb(130, 129, 129);
+    font-family: sans-serif;
+}

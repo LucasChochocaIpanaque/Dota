@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'monospace';
+}
+
+
+/*Dota*/
+
+header {
+    margin: 0;
+    height: 116vh;
+    background: url(../img/check-gif.gif.opdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Mapa*/
+
+nav {
+    text-align: left;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    font-weight: 300;
+    margin-right: 48px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+.botonesIN {
+    padding: 1.375rem 1.75rem;
+    box-shadow: rgb(255, 255, 255) 6px 8px 11px -2px;
+    font-size: 140%;
+}
+
+
+/*Texto Header-nav*/
+
+header .texto-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-header h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.texto-header h2 {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.665);
+}
+
+.texto-header p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.885);
+}
+
+main {
+    background: url(../img/Mapa\ fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0;
+    height: 110vh;
+}
+
+
+/*Parte 2 Mapa*/
+
+.bloque1 {
+    background: rgba(35, 46, 43, 0.323);
+    background: radial-gradient(circle, rgba(14, 26, 23, 0.467) 22%, rgba(31, 31, 33, 0.789) 92%);
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px -10px;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.titulo {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.contendorMapa {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textoDota {
+    color: #fff;
+}
+
+.Final {
+    background: url(../img/DOTA_2_Luna_Mirana_442115.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0;
+    height: 110vh;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: black;
+}
+
+.Tfoter {
+    text-align: center;
+    color: rgb(130, 129, 129);
+    font-family: sans-serif;
+}
